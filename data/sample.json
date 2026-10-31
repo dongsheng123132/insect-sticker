@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "0.1.0",
+  "note": "insect-sticker 占坑样例数据（蝴蝶先行）。ids、traits、conservation 等需按权威源逐项核对后填充，贴纸尚在生产中（sticker.status=pending）。",
+  "species": [
+    {
+      "id": "Danaus_plexippus",
+      "scientificName": "Danaus plexippus",
+      "authority": "(Linnaeus, 1758)",
+      "taxonomy": { "system": "Catalogue of Life (待核对)", "order": "Lepidoptera", "family": "Nymphalidae", "genus": "Danaus" },
+      "names": { "en": "Monarch butterfly", "zh-Hans": "帝王蝶", "zh-Hant": "帝王斑蝶", "ja": "オオカバマダラ" },
+      "ids": { "wikidata": null, "gbif": null, "inaturalist": null },
+      "range": { "distribution": "Americas; migratory" },
+      "conservation": { "iucn": null },
+      "sticker": { "file": null, "kind": null, "reviewScore": null, "meetsQualityBar": false, "license": "PolyForm-Shield-1.0.0", "status": "pending", "reference": null }
+    },
+    {
+      "id": "Papilio_machaon",
+      "scientificName": "Papilio machaon",
+      "authority": "Linnaeus, 1758",
+      "taxonomy": { "system": "Catalogue of Life (待核对)", "order": "Lepidoptera", "family": "Papilionidae", "genus": "Papilio" },
+      "names": { "en": "Old World swallowtail", "zh-Hans": "金凤蝶", "zh-Hant": "金鳳蝶", "ja": "キアゲハ" },
+      "ids": { "wikidata": null, "gbif": null, "inaturalist": null },
+      "range": { "distribution": "Eurasia, North Africa, North America" },
+      "conservation": { "iucn": null },
+      "sticker": { "file": null, "kind": null, "reviewScore": null, "meetsQualityBar": false, "license": "PolyForm-Shield-1.0.0", "status": "pending", "reference": null }
+    },
+    {
+      "id": "Papilio_xuthus",
+      "scientificName": "Papilio xuthus",
+      "authority": "Linnaeus, 1767",
+      "taxonomy": { "system": "Catalogue of Life (待核对)", "order": "Lepidoptera", "family": "Papilionidae", "genus": "Papilio" },
+      "names": { "en": "Asian swallowtail", "zh-Hans": "柑橘凤蝶", "zh-Hant": "柑橘鳳蝶", "ja": "ナミアゲハ" },
+      "ids": { "wikidata": null, "gbif": null, "inaturalist": null },
+      "range": { "distribution": "East Asia" },
+      "conservation": { "iucn": null },
+      "sticker": { "file": null, "kind": null, "reviewScore": null, "meetsQualityBar": false, "license": "PolyForm-Shield-1.0.0", "status": "pending", "reference": null }
+    }
+  ]
+}
