@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "note": "insect-sticker 占坑样例数据（蝴蝶先行）。ids、traits、conservation 等需按权威源逐项核对后填充，贴纸尚在生产中（sticker.status=pending）。",
+  "note": "insect-sticker 占坑样例数据（蝴蝶先行）。ids、traits、conservation 等需按权威源逐项核对后填充，贴纸尚未生成（筹备中，sticker.status=pending）。",
   "species": [
     {
       "id": "Danaus_plexippus",

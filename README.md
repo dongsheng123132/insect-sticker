@@ -2,7 +2,7 @@
 
 昆虫贴纸库：每种一张白边贴纸，附多语言虫名与结构化数据。学 [花叔 huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker) 的「鸣迹」模式。
 
-> 🚧 **占坑阶段**：数据 schema、许可、样例数据已就位；贴纸正在制作中。昆虫已描述约 100 万种，不能一步全做——**先从全球蝴蝶全物种（约 1.8–2 万种）开始**，再扩甲虫等目。
+> 🚧 **占坑阶段**：数据 schema、许可、样例数据已就位；贴纸尚未生成（筹备中）。昆虫已描述约 100 万种，不能一步全做——**先从全球蝴蝶全物种（约 1.8–2 万种）开始**，再扩甲虫等目。
 
 **English:** Stickers for the world's insect species. Insects (~1M described) can't be done all at once, so we start with the complete butterflies (~18–20k species), then expand. **Early stage: schema, license and samples are live.**
 
@@ -14,7 +14,7 @@
 
 ## 灵感与方法
 
-照抄花叔四步流水线（见他的[长文](https://x.com/AlchainHust/status/2116088319511605472)）：找参考图 → 照着画 → 独立打分审校 → 画不好就重画。参考图不打包，逐种在 `data/species.json` 溯源。
+照抄花叔四步流水线（见他的[长文](https://x.com/AlchainHust/status/2116088319511605472)）：找参考图 → 照着画 → 独立打分审校 → 画不好就重画。参考图不打包，将逐种在 `data/species.json` 溯源。
 
 ## 数据 schema
 
@@ -24,7 +24,7 @@
 
 ```
 stickers/<Order>/<Family>/<Genus_species>.webp
-data/species.json
+data/species.json（尚未生成）
 data/species.schema.json
 data/README.md
 LICENSE.md
@@ -33,14 +33,14 @@ NOTICE.md
 
 ## 许可
 
-- 贴纸：**PolyForm Shield 1.0.0**（唯一禁止：做与看昆虫·虫迹竞争的观察/识虫/昆虫图鉴产品）。
+- 贴纸：**PolyForm Shield 1.0.0** —— 源码/资源公开、可复制分发，但**不是 OSI 开源许可**，有**竞争限制**：禁止做与看昆虫·虫迹竞争的观察/识虫/昆虫图鉴产品。
 - 数据（编纂部分）：**MIT**；第三方条款见 [NOTICE.md](NOTICE.md)。
 
 详见 [LICENSE.md](LICENSE.md)。
 
 ## Roadmap
 
-- [ ] 数据 schema 与许可（✅ 已完成）
+- [x] 数据 schema 与许可
 - [ ] 首批蝴蝶贴纸小样（100–300 种）跑通流水线
 - [ ] 全球蝴蝶全物种（约 1.8–2 万种）
 - [ ] 扩展甲虫等目
